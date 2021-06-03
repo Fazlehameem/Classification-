@@ -67,12 +67,18 @@ Be sure to complete the following steps for each model:
 Use the above to answer the following:
 
 > Which model had the best balanced accuracy score?
->
+>Combination Sampling
 > Which model had the best recall score?
->
+>Over Sampling
 > Which model had the best geometric mean score?
->
-> What are the top three features?
+Naive Random Oversampling
 
----
 
+#> Which model had the best balanced accuracy score?
+#>Easy Essemble Classifier (92.5%)
+#> Which model had the best recall score?
+#>Easy Essemble Classifier (94%)
+#> Which model had the best geometric mean score?
+#> Easy Essemble Classifier (93%)
+#> What are the top three features?
+ #total_rec_prncp, total_rec_int, total_pymnt
