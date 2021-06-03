@@ -43,13 +43,6 @@ For each of the above, you will need to:
 3. Calculate the `confusion matrix` from `sklearn.metrics`.
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
-Use the above to answer the following:
-
-> Which model had the best balanced accuracy score?
->
-> Which model had the best recall score?
->
-> Which model had the best geometric mean score?
 
 #### Ensemble Learning
 
@@ -66,19 +59,19 @@ Be sure to complete the following steps for each model:
 
 Use the above to answer the following:
 
-> Which model had the best balanced accuracy score?
->Combination Sampling
-> Which model had the best recall score?
->Over Sampling
-> Which model had the best geometric mean score?
+# Which model had the best balanced accuracy score?
+Combination Sampling
+# Which model had the best recall score?
+Over Sampling
+# Which model had the best geometric mean score?
 Naive Random Oversampling
 
 
-#> Which model had the best balanced accuracy score?
-#>Easy Essemble Classifier (92.5%)
-#> Which model had the best recall score?
-#>Easy Essemble Classifier (94%)
-#> Which model had the best geometric mean score?
-#> Easy Essemble Classifier (93%)
-#> What are the top three features?
- #total_rec_prncp, total_rec_int, total_pymnt
+# Which model had the best balanced accuracy score?
+Easy Essemble Classifier (92.5%)
+# Which model had the best recall score?
+Easy Essemble Classifier (94%)
+# Which model had the best geometric mean score?
+Easy Essemble Classifier (93%)
+# What are the top three features?
+total_rec_prncp, total_rec_int, total_pymnt
